@@ -10,24 +10,18 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ContainedButtons() {
+export default function OutlinedButton2() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <Button variant="outlined">Default</Button>
-      <Button variant="contained" color="primary">
-        Primary
-      </Button>
+     
+      
+   
       <Button variant="outlined" color="secondary">
-        Secondary
+       Essential Contacts List
       </Button>
-      <Button variant="contained" disabled>
-        Disabled
-      </Button>
-      <Button variant="contained" color="primary" href="#contained-buttons">
-        Link
-      </Button>
+     
     </div>
   );
 }

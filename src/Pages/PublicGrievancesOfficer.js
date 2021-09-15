@@ -1,20 +1,19 @@
 import React from 'react';
 import Container from '@material-ui/core/Container';
-
+import CustomizedAccordions from '../Components/PublicOfficerAccordion';
 
 export default function PublicGrievancesOfficer() {
   return (
     <React.Fragment>
         <Container fixed>
             <p>
-                Welcome to your web application. Make something beautiful!
-            </p>
-            <p>
-                To get started, edit <code>src/App.js</code>, save, and reload this page.
+               Details of Public Grievances Officer
             </p>
             
             
+            <CustomizedAccordions/>
         </Container>
+
     </React.Fragment>
   );
 }
