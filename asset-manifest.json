@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/goa/static/css/main.af840fbd.chunk.css",
-    "main.js": "/goa/static/js/main.014006b3.chunk.js",
-    "main.js.map": "/goa/static/js/main.014006b3.chunk.js.map",
+    "main.js": "/goa/static/js/main.a9b9a434.chunk.js",
+    "main.js.map": "/goa/static/js/main.a9b9a434.chunk.js.map",
     "runtime-main.js": "/goa/static/js/runtime-main.0bed5e83.js",
     "runtime-main.js.map": "/goa/static/js/runtime-main.0bed5e83.js.map",
-    "static/js/2.3be18592.chunk.js": "/goa/static/js/2.3be18592.chunk.js",
-    "static/js/2.3be18592.chunk.js.map": "/goa/static/js/2.3be18592.chunk.js.map",
+    "static/js/2.09230f0d.chunk.js": "/goa/static/js/2.09230f0d.chunk.js",
+    "static/js/2.09230f0d.chunk.js.map": "/goa/static/js/2.09230f0d.chunk.js.map",
     "index.html": "/goa/index.html",
     "static/css/main.af840fbd.chunk.css.map": "/goa/static/css/main.af840fbd.chunk.css.map",
-    "static/js/2.3be18592.chunk.js.LICENSE.txt": "/goa/static/js/2.3be18592.chunk.js.LICENSE.txt",
-    "static/media/logo.355735b3.svg": "/goa/static/media/logo.355735b3.svg"
+    "static/js/2.09230f0d.chunk.js.LICENSE.txt": "/goa/static/js/2.09230f0d.chunk.js.LICENSE.txt",
+    "static/media/GoaMap.165a73e3.jpeg": "/goa/static/media/GoaMap.165a73e3.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bed5e83.js",
-    "static/js/2.3be18592.chunk.js",
+    "static/js/2.09230f0d.chunk.js",
     "static/css/main.af840fbd.chunk.css",
-    "static/js/main.014006b3.chunk.js"
+    "static/js/main.a9b9a434.chunk.js"
   ]
 }
