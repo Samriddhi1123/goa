@@ -5,11 +5,17 @@ import TextMobileStepper from '../Components/Goahomepage/Stepper2';
 import OutlinedButtons6 from '../Components/Goahomepage/Button6';
 import OutlinedButtons7 from '../Components/Goahomepage/Button7';
 import OutlinedButtons8 from '../Components/Goahomepage/Button8';
+import GoaGovtLogo from '../Assets/GoaGovtLogo.jpg'
+import DepartmentOfTourism from '../Assets/DepartmentOfTourism.jpeg'
+import Video from '../Assets/Video.jpeg'
+
+
 
 export default function Home() {
   return (
     <React.Fragment>
         <Container fixed>
+        <img src = {GoaGovtLogo} className= "GoaGovtLogoo" alt= "Goa-Tourism-Department"/>
           <p>
             Department of Tourism Goa
             </p>
@@ -20,6 +26,7 @@ export default function Home() {
           <p>
             Welcome to Goa Tourism Department
             </p>
+            <img src = {DepartmentOfTourism} className= "Goa-Tourism-Department" alt= "Goa-Tourism-Department"/>
           <p>
           The Administrative head of the Department is Shri J. Ashok Kumar, IAS, Secretary Tourism. The Department has a zonal office in North Goa at Headquarters, Panaji and in South Goa at Margao.
           The Current Director of Tourism is Shri Menino D’souza.
@@ -36,42 +43,8 @@ export default function Home() {
           <p>
             A Glimpse into the Beauty of Goa
             </p>
-            <p>
-              Policies
-            </p>
-            <p>
-              Terms and Conditions
-            </p>
-            <p>
-              Disclaimer
-            </p>
-            <p>
-              Privacy Policies
-            </p>
-            <p>
-              Hyperlinking Policies
-            </p>
-            <p>
-              Help
-            </p>
-            <p>
-              Contact Us
-            </p>
-            <p>
-              Goa Tourism Department
-            </p>
-            <p>
-              Paryatan Bhavan, 2nd Floor, Patto
-            </p>
-            <p>
-              Panaji-Goa, India 403001
-            </p>
-            <p>
-              Call Us: +91-0832-2494204
-            </p>
-            <p>
-            Email : Dir-tour.goa@nic.in             
-            </p>
+            <img src = {Video} className= "Goa-Tourism-Department" alt= "Goa-Tourism-Department"/>
+            
         </Container>
     </React.Fragment>
   );

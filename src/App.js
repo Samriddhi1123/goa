@@ -11,13 +11,17 @@ import EssentialList2 from './Pages/EssentialList2';
 import EssentialList3 from './Pages/EssentialList3';
 import EssentialList4 from './Pages/EssentialList4';
 import EssentialList5 from './Pages/EssentialList5';
+import ContactUsButton from './Components/Goahomepage/ContactUsButton';
+import SimpleAccordion from './Components/Goahomepage/LangDropdown';
+import AppFooter from './Components/Goahomepage/Footer';
 
 function App() {
   return (
     <div className="App">
       {/* Header (Navigation Bar) */}
       <header className="App-header">
-     
+     <ContactUsButton/>
+     <SimpleAccordion/>
       <PrimarySearchAppBar/>
       </header>
       
@@ -36,9 +40,7 @@ function App() {
             
           </Switch>
 
-      <footer className="App-footer">
-        This is a footer
-      </footer>
+      <AppFooter/>
     </div>
   );
   }
