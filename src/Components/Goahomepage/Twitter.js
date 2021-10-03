@@ -17,7 +17,7 @@ export default function Twitter() {
   return (
     <div className={classes.root}>
       <Button variant="contained">
-        <TwitterIcon/>
+        <TwitterIcon />
       </Button>
     </div>
   );

@@ -15,7 +15,7 @@ export default function Help() {
 
   return (
     <div className={classes.root}>
-      <Button color="primary">Terms and Conditions</Button>
+      <Button color="primary">Help</Button>
     </div>
   );
 }

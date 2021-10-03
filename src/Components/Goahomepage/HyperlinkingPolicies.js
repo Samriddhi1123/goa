@@ -15,7 +15,7 @@ export default function HyperlinkingPolicies() {
 
   return (
     <div className={classes.root}>
-      <Button color="primary">Terms and Conditions</Button>
+      <Button color="primary">Hyperlinking Policies</Button>
     </div>
   );
 }

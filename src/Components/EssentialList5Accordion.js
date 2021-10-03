@@ -5,17 +5,11 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import OutlinedButtons6 from './Button6';
-import EnglishLink from './English';
-import HindiLink from './Hindi';
-import KonkaniLink from './Konkani';
-import { Box } from '@material-ui/core';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    width: '40%',
-    position :'relative',
-    left:'60%'
+    width: '100%',
   },
   heading: {
     fontSize: theme.typography.pxToRem(15),
@@ -23,31 +17,44 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function SimpleAccordion() {
+export default function SimpleAccordion5() {
   const classes = useStyles();
+  const preventDefault = (event) => event.preventDefault();
+
 
   return (
     <div className={classes.root}>
-      <Box component="span" m={1}>
       <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography className={classes.heading}>Languages</Typography>
+          <Typography className={classes.heading}><p> Smt. Lodovina Quadros</p>
+            Assistant Planning Officer</Typography>
         </AccordionSummary>
         <AccordionDetails>
-          <EnglishLink/>
-        </AccordionDetails>
-        <AccordionDetails>
-          <HindiLink/>
-        </AccordionDetails>
-        <AccordionDetails>
-          <KonkaniLink/>
+          <Typography>
+            <p> Address:2nd Floor, Paryatan Bhavan, Patto Plaza, Panaji-Tiswadi-Goa 403001
+            </p>
+            <Link href="#" onClick={preventDefault}>
+
+
+              <p> 0832 2494203</p>
+
+            </Link>
+            <Link href="#" onClick={preventDefault}>
+              <p>0832 2494204</p>
+            </Link>
+            <Link href="#" onClick={preventDefault}>
+              <p>0832 2494200</p>
+            </Link>
+          </Typography>
+
         </AccordionDetails>
       </Accordion>
-      </Box>
+
+
     </div>
   );
 }

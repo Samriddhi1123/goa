@@ -17,8 +17,8 @@ export default function OutlinedButtons1() {
   return (
     <div className={classes.root}>
       <Button variant="outlined">
-      Phased Reopening of Areas outside Containment zone w.e.f.  14/09/2020
-      <SystemUpdateAltRoundedIcon/>
+        Phased Reopening of Areas outside Containment zone w.e.f.  14/09/2020
+        <SystemUpdateAltRoundedIcon />
       </Button>
     </div>
   );

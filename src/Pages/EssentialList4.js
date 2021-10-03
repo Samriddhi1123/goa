@@ -1,21 +1,22 @@
 import React from 'react';
-import Container from '@material-ui/core/Container'; 
-import BasicTable4 from '../Components/TableList4';
+import Container from '@material-ui/core/Container';
+import SimpleAccordion4 from '../Components/EssentialList4Accordion';
+import Backbutton2 from '../Components/BackButtons/Backbutton2';
+import { Paper } from '@material-ui/core';
 
 
 export default function EssentialList4() {
   return (
     <React.Fragment>
-        <Container fixed>
-            <p>
-                Welcome to your web application. Make something beautiful!
-            </p>
-            <p>
-                To get started, edit <code>src/App.js</code>, save, and reload this page.
-            </p>
-            
-            <BasicTable4/>
-        </Container>
+      <Container fixed>
+        <Paper elevation={0}>
+          Assistant Tourism Officers
+        </Paper>
+
+
+        <SimpleAccordion4 />
+        <Backbutton2 />
+      </Container>
     </React.Fragment>
   );
 }

@@ -2,7 +2,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home.js'
-import PrimarySearchAppBar from './Components/SearchBar'
+import ButtonAppBar from './Components/SearchBar'
 import ContactUs from './Pages/ContactUs';
 import PublicGrievancesOfficer from './Pages/PublicGrievancesOfficer';
 import EssentialContactList from './Pages/EssentialContactList';
@@ -22,7 +22,7 @@ function App() {
       <header className="App-header">
      <ContactUsButton/>
      <SimpleAccordion/>
-      <PrimarySearchAppBar/>
+      <ButtonAppBar/>
       </header>
       
       {/* Router - Pages */}

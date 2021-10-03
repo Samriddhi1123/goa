@@ -17,9 +17,9 @@ export default function OutlinedButtons6() {
   return (
     <div className={classes.root}>
       <Button variant="outlined">
-      Latest Updates
-      <ArrowForwardIosRoundedIcon/>
-       </Button>
+        Latest Updates
+        <ArrowForwardIosRoundedIcon />
+      </Button>
     </div>
   );
 }

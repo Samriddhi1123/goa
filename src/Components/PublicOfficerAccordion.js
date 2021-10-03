@@ -61,12 +61,12 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          <p> Dy. Director of Tourism, Head Office, Panaji </p>
-          <p> Name: Prasad G. Volvoikar.</p>
-          <p> Designation: Dy. Director of Tourism, Head Office, Panaji</p>
-          <p> Address:  Department of Tourism, Government of Goa, Paryatan Bhavan, Patto, Panaji, Goa - 403001.</p>
-          <p> Phone: 0832-2494223/9822762636</p>
-          <p> Email ID: Prasad.volvoikar@gov.in </p>
+            <p> Dy. Director of Tourism, Head Office, Panaji </p>
+            <p> Name: Prasad G. Volvoikar.</p>
+            <p> Designation: Dy. Director of Tourism, Head Office, Panaji</p>
+            <p> Address:  Department of Tourism, Government of Goa, Paryatan Bhavan, Patto, Panaji, Goa - 403001.</p>
+            <p> Phone: 0832-2494223/9822762636</p>
+            <p> Email ID: Prasad.volvoikar@gov.in </p>
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -76,23 +76,23 @@ export default function CustomizedAccordions() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-          <p> Dy. Director of Tourism, Head Office, Panaji </p>
-          <p> Name: Rajesh A. Kale.</p>
-          <p> Designation: Dy. Director/ Public Grievance Officer (North Zone Office/South Zone Office).
-</p>
-          <p> Address:  Department of Tourism, Government of Goa, Paryatan Bhavan, Patto, Panaji, Goa – 403001 (North Zone Office).
-Department of Tourism, Government of Goa, South Zone Office, Block No. 43, Ground Floor, Mathany Saldanha Administrative Complex, Margao, Goa - 403601. (South Zone Office)
-</p>
-          <p> Phone:  0832-2494208 /0832-2794635 
-/9822176918
-</p>
-          <p> Email ID:  kalerajesh014@gmail.com
-               </p>
-            
+            <p> Dy. Director of Tourism, Head Office, Panaji </p>
+            <p> Name: Rajesh A. Kale.</p>
+            <p> Designation: Dy. Director/ Public Grievance Officer (North Zone Office/South Zone Office).
+            </p>
+            <p> Address:  Department of Tourism, Government of Goa, Paryatan Bhavan, Patto, Panaji, Goa – 403001 (North Zone Office).
+              Department of Tourism, Government of Goa, South Zone Office, Block No. 43, Ground Floor, Mathany Saldanha Administrative Complex, Margao, Goa - 403601. (South Zone Office)
+            </p>
+            <p> Phone:  0832-2494208 /0832-2794635
+              /9822176918
+            </p>
+            <p> Email ID:  kalerajesh014@gmail.com
+            </p>
+
           </Typography>
         </AccordionDetails>
       </Accordion>
-      
+
     </div>
   );
 }

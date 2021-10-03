@@ -17,9 +17,9 @@ export default function OutlinedButtons5() {
   return (
     <div className={classes.root}>
       <Button variant="outlined">
-      Covid-19 Guidelines Order
-      <SystemUpdateAltRoundedIcon/>
-       </Button>
+        Covid-19 Guidelines Order
+        <SystemUpdateAltRoundedIcon />
+      </Button>
     </div>
   );
 }

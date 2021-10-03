@@ -1,7 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import SystemUpdateAltRoundedIcon from '@material-ui/icons/SystemUpdateAltRounded';
+import { Link, Router } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -11,15 +11,16 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function OutlinedButtons3() {
+export default function Backbutton1() {
   const classes = useStyles();
 
   return (
     <div className={classes.root}>
-      <Button variant="outlined">
-        Circular safety and hygiene Guide – Watersport and River Cruise covid19
-        <SystemUpdateAltRoundedIcon />
-      </Button>
+      <Link to={process.env.PUBLIC_URL + '/ContactUs'}>
+        <Button style={{ textTransform: 'lowercase' }} variant="outlined" color="primary" href="">
+          Back
+        </Button>
+      </Link>
     </div>
   );
 }

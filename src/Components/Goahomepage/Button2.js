@@ -17,8 +17,8 @@ export default function OutlinedButtons2() {
   return (
     <div className={classes.root}>
       <Button variant="outlined">
-      Covid Order – Covid negative certificate compulsory for persons entering the State.
-      <SystemUpdateAltRoundedIcon/>
+        Covid Order – Covid negative certificate compulsory for persons entering the State.
+        <SystemUpdateAltRoundedIcon />
       </Button>
     </div>
   );

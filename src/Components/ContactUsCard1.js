@@ -6,6 +6,8 @@ import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+import { Grid } from '@material-ui/core';
+import Paper from '@material-ui/core/Paper';
 
 
 const useStyles = makeStyles({
@@ -30,22 +32,39 @@ export default function SimpleCard() {
   const bull = <span className={classes.bullet}>•</span>;
 
   return (
+
     <Card className={classes.root}>
+
       <CardContent>
-        
+
         <Typography variant="h5" component="h2">
           Contact Us
+
         </Typography>
         <Typography className={classes.pos} color="textSecondary">
-        Department of Tourism
+          Department of Tourism
         </Typography>
-        <LocationOnIcon/>
 
-        <Typography variant="body2" component="p">
-        Paryatan Bhavan, 2nd Floor, Patto, Panaji-Goa, India, 403001
-          <br />
-         
-        </Typography>
+        <Grid container spacing={1}>
+          <Grid item xs={3}>
+            <Paper className={classes.paper}>
+              <LocationOnIcon />
+            </Paper>
+          </Grid>
+
+          <Grid item xs={9}>
+            <Paper className={classes.paper}><Typography variant="body2" component="p">
+              Paryatan Bhavan, 2nd Floor, Patto, Panaji-Goa, India, 403001
+
+            </Typography>
+            </Paper>
+          </Grid>
+        </Grid>
+
+
+
+
+
       </CardContent>
       <CardActions>
         <Button size="small"></Button>
