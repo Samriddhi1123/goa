@@ -1,24 +1,31 @@
 {
   "files": {
     "main.css": "/goa/static/css/main.ce445651.chunk.css",
-    "main.js": "/goa/static/js/main.0dd7ab2e.chunk.js",
-    "main.js.map": "/goa/static/js/main.0dd7ab2e.chunk.js.map",
+    "main.js": "/goa/static/js/main.4c67ce65.chunk.js",
+    "main.js.map": "/goa/static/js/main.4c67ce65.chunk.js.map",
     "runtime-main.js": "/goa/static/js/runtime-main.0bed5e83.js",
     "runtime-main.js.map": "/goa/static/js/runtime-main.0bed5e83.js.map",
-    "static/js/2.e22c58bc.chunk.js": "/goa/static/js/2.e22c58bc.chunk.js",
-    "static/js/2.e22c58bc.chunk.js.map": "/goa/static/js/2.e22c58bc.chunk.js.map",
+    "static/js/2.3deb3915.chunk.js": "/goa/static/js/2.3deb3915.chunk.js",
+    "static/js/2.3deb3915.chunk.js.map": "/goa/static/js/2.3deb3915.chunk.js.map",
     "index.html": "/goa/index.html",
     "static/css/main.ce445651.chunk.css.map": "/goa/static/css/main.ce445651.chunk.css.map",
-    "static/js/2.e22c58bc.chunk.js.LICENSE.txt": "/goa/static/js/2.e22c58bc.chunk.js.LICENSE.txt",
+    "static/js/2.3deb3915.chunk.js.LICENSE.txt": "/goa/static/js/2.3deb3915.chunk.js.LICENSE.txt",
+    "static/media/Banner1.0e233b84.jpeg": "/goa/static/media/Banner1.0e233b84.jpeg",
+    "static/media/Banner2.9dbfec9f.jpeg": "/goa/static/media/Banner2.9dbfec9f.jpeg",
+    "static/media/Banner3.ced5949e.jpeg": "/goa/static/media/Banner3.ced5949e.jpeg",
+    "static/media/Banner4.35ec6e46.jpeg": "/goa/static/media/Banner4.35ec6e46.jpeg",
+    "static/media/Banner5.97e71194.jpeg": "/goa/static/media/Banner5.97e71194.jpeg",
+    "static/media/Carousel1.1632cb14.jpeg": "/goa/static/media/Carousel1.1632cb14.jpeg",
+    "static/media/Carousel2.47866553.jpeg": "/goa/static/media/Carousel2.47866553.jpeg",
     "static/media/DepartmentOfTourism.d6d325e8.jpeg": "/goa/static/media/DepartmentOfTourism.d6d325e8.jpeg",
     "static/media/GoaGovtLogo.f8a1b7e3.jpg": "/goa/static/media/GoaGovtLogo.f8a1b7e3.jpg",
-    "static/media/GoaMap.165a73e3.jpeg": "/goa/static/media/GoaMap.165a73e3.jpeg",
+    "static/media/Goalogo.54ecf58c.png": "/goa/static/media/Goalogo.54ecf58c.png",
     "static/media/Video.1ae77406.jpeg": "/goa/static/media/Video.1ae77406.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bed5e83.js",
-    "static/js/2.e22c58bc.chunk.js",
+    "static/js/2.3deb3915.chunk.js",
     "static/css/main.ce445651.chunk.css",
-    "static/js/main.0dd7ab2e.chunk.js"
+    "static/js/main.4c67ce65.chunk.js"
   ]
 }
