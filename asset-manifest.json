@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/goa/static/css/main.ce445651.chunk.css",
-    "main.js": "/goa/static/js/main.2ea428e5.chunk.js",
-    "main.js.map": "/goa/static/js/main.2ea428e5.chunk.js.map",
+    "main.css": "/goa/static/css/main.79fa5014.chunk.css",
+    "main.js": "/goa/static/js/main.ee33955e.chunk.js",
+    "main.js.map": "/goa/static/js/main.ee33955e.chunk.js.map",
     "runtime-main.js": "/goa/static/js/runtime-main.0bed5e83.js",
     "runtime-main.js.map": "/goa/static/js/runtime-main.0bed5e83.js.map",
-    "static/js/2.3deb3915.chunk.js": "/goa/static/js/2.3deb3915.chunk.js",
-    "static/js/2.3deb3915.chunk.js.map": "/goa/static/js/2.3deb3915.chunk.js.map",
+    "static/js/2.a3ca05c2.chunk.js": "/goa/static/js/2.a3ca05c2.chunk.js",
+    "static/js/2.a3ca05c2.chunk.js.map": "/goa/static/js/2.a3ca05c2.chunk.js.map",
     "index.html": "/goa/index.html",
-    "static/css/main.ce445651.chunk.css.map": "/goa/static/css/main.ce445651.chunk.css.map",
-    "static/js/2.3deb3915.chunk.js.LICENSE.txt": "/goa/static/js/2.3deb3915.chunk.js.LICENSE.txt",
+    "static/css/main.79fa5014.chunk.css.map": "/goa/static/css/main.79fa5014.chunk.css.map",
+    "static/js/2.a3ca05c2.chunk.js.LICENSE.txt": "/goa/static/js/2.a3ca05c2.chunk.js.LICENSE.txt",
     "static/media/Banner1.0e233b84.jpeg": "/goa/static/media/Banner1.0e233b84.jpeg",
     "static/media/Banner2.9dbfec9f.jpeg": "/goa/static/media/Banner2.9dbfec9f.jpeg",
     "static/media/Banner3.ced5949e.jpeg": "/goa/static/media/Banner3.ced5949e.jpeg",
@@ -18,14 +18,23 @@
     "static/media/Carousel1.1632cb14.jpeg": "/goa/static/media/Carousel1.1632cb14.jpeg",
     "static/media/Carousel2.47866553.jpeg": "/goa/static/media/Carousel2.47866553.jpeg",
     "static/media/DepartmentOfTourism.d6d325e8.jpeg": "/goa/static/media/DepartmentOfTourism.d6d325e8.jpeg",
+    "static/media/Facebook.92c96e93.svg": "/goa/static/media/Facebook.92c96e93.svg",
     "static/media/GoaGovtLogo.f8a1b7e3.jpg": "/goa/static/media/GoaGovtLogo.f8a1b7e3.jpg",
     "static/media/Goalogo.54ecf58c.png": "/goa/static/media/Goalogo.54ecf58c.png",
-    "static/media/Video.1ae77406.jpeg": "/goa/static/media/Video.1ae77406.jpeg"
+    "static/media/Hamburger.98a7cb9e.svg": "/goa/static/media/Hamburger.98a7cb9e.svg",
+    "static/media/Home.db2acd62.svg": "/goa/static/media/Home.db2acd62.svg",
+    "static/media/Instagram.e9860d6c.svg": "/goa/static/media/Instagram.e9860d6c.svg",
+    "static/media/SearchIcon.22ef998d.svg": "/goa/static/media/SearchIcon.22ef998d.svg",
+    "static/media/Twitter.c6ad055d.svg": "/goa/static/media/Twitter.c6ad055d.svg",
+    "static/media/Video.1ae77406.jpeg": "/goa/static/media/Video.1ae77406.jpeg",
+    "static/media/Youtube.e2305e19.svg": "/goa/static/media/Youtube.e2305e19.svg",
+    "static/media/arrowdown.ba18c093.svg": "/goa/static/media/arrowdown.ba18c093.svg",
+    "static/media/rightarrow.1532f36d.svg": "/goa/static/media/rightarrow.1532f36d.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bed5e83.js",
-    "static/js/2.3deb3915.chunk.js",
-    "static/css/main.ce445651.chunk.css",
-    "static/js/main.2ea428e5.chunk.js"
+    "static/js/2.a3ca05c2.chunk.js",
+    "static/css/main.79fa5014.chunk.css",
+    "static/js/main.ee33955e.chunk.js"
   ]
 }
