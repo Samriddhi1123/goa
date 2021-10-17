@@ -12,16 +12,24 @@ import EssentialList3 from './Pages/EssentialList3';
 import EssentialList4 from './Pages/EssentialList4';
 import EssentialList5 from './Pages/EssentialList5';
 import ContactUsButton from './Components/Goahomepage/ContactUsButton';
-import SimpleAccordion from './Components/Goahomepage/LangDropdown';
+import SimpleMenu01 from './Components/Goahomepage/LangDropdown';
 import AppFooter from './Components/Goahomepage/Footer';
+import { Grid } from '@material-ui/core';
 
 function App() {
   return (
     <div className="App">
       {/* Header (Navigation Bar) */}
       <header className="App-header">
+      <Grid container spacing={1}>
+        <Grid item xl={6} xs={6}>
+        
      <ContactUsButton/>
-     <SimpleAccordion/>
+     </Grid>
+     <Grid item xl={6} xs={6}>
+     <SimpleMenu01/>
+     </Grid>
+     </Grid>
       <ButtonAppBar/>
       </header>
       

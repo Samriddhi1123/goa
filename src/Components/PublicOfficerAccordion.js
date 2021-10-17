@@ -4,6 +4,22 @@ import MuiAccordion from '@material-ui/core/Accordion';
 import MuiAccordionSummary from '@material-ui/core/AccordionSummary';
 import MuiAccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
+import arrowdown from '../Assets/arrowdown.svg';
+import { makeStyles } from '@material-ui/core';
+
+
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    '& > *': {
+      margin: theme.spacing(1),
+      colour: 'black'
+    },
+  },
+  arrows: {
+    colour: 'red'
+  }
+}));
 
 const Accordion = withStyles({
   root: {
@@ -57,7 +73,10 @@ export default function CustomizedAccordions() {
     <div>
       <Accordion square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>Dy. Director of Tourism, Head Office, Panaji</Typography>
+          <Typography>Dy. Director of Tourism, Head Office, Panaji
+          
+          </Typography>
+          <img src={arrowdown} className="arrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -72,7 +91,10 @@ export default function CustomizedAccordions() {
       </Accordion>
       <Accordion square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>Dy. Director/ Public Grievance Officer (North Zone Office/South Zone Office).</Typography>
+          <Typography>Dy. Director/ Public Grievance Officer (North Zone Office/South Zone Office)
+          
+          </Typography>
+          <img src={arrowdown} className="arrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

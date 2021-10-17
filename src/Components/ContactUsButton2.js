@@ -2,14 +2,18 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { Link, Router } from "react-router-dom";
-import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
+import rightarrow from '../Assets/rightarrow.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
+      colour: 'black'
     },
   },
+  arrows: {
+    colour: 'red'
+  }
 }));
 
 export default function OutlinedButton2() {
@@ -23,7 +27,7 @@ export default function OutlinedButton2() {
         <Button variant="outlined" color="primary" href="">
 
           Essential Contacts List
-          <ArrowForwardIosRoundedIcon />
+          <img src={rightarrow} className="rightarrow" alt="arrow" />
         </Button>
       </Link>
 

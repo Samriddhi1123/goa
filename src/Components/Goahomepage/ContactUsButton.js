@@ -8,8 +8,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
+
       position: 'relative',
-      right:'-30%'
+      
+      color:'black'
     },
   },
 }));
@@ -21,7 +23,7 @@ export default function ContactUsButton() {
     <div className={classes.root}>
       <Box component="span" m={1}>
       <Link to={process.env.PUBLIC_URL + '/ContactUs'}>
-      <Button color="secondary">Contact Us</Button>
+      <Button> Contact Us</Button>
       </Link>
       </Box>
     </div>

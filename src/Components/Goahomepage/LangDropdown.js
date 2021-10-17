@@ -1,53 +1,38 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import Accordion from '@material-ui/core/Accordion';
-import AccordionSummary from '@material-ui/core/AccordionSummary';
-import AccordionDetails from '@material-ui/core/AccordionDetails';
-import Typography from '@material-ui/core/Typography';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-import OutlinedButtons6 from './Button6';
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import { makeStyles } from '@material-ui/styles';
 import EnglishLink from './English';
 import HindiLink from './Hindi';
 import KonkaniLink from './Konkani';
-import { Box } from '@material-ui/core';
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: '40%',
-    position :'relative',
-    left:'60%'
-  },
-  heading: {
-    fontSize: theme.typography.pxToRem(15),
-    fontWeight: theme.typography.fontWeightRegular,
-  },
-}));
+export default function SimpleMenu01() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
 
-export default function SimpleAccordion() {
-  const classes = useStyles();
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
 
   return (
-    <div className={classes.root}>
-      <Box component="span" m={1}>
-      <Accordion>
-        <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
-          aria-controls="panel1a-content"
-          id="panel1a-header"
-        >
-          <Typography className={classes.heading}>Languages</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <EnglishLink/>
-        </AccordionDetails>
-        <AccordionDetails>
-          <HindiLink/>
-        </AccordionDetails>
-        <AccordionDetails>
-          <KonkaniLink/>
-        </AccordionDetails>
-      </Accordion>
-      </Box>
+    <div>
+      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
+        Languages
+      </Button>
+      <Menu
+        id="simple-menu"
+        anchorEl={anchorEl}
+        keepMounted
+        open={Boolean(anchorEl)}
+        onClose={handleClose}
+      >
+        <MenuItem onClick={handleClose}><EnglishLink/></MenuItem>
+        <MenuItem onClick={handleClose}><HindiLink/></MenuItem>
+        <MenuItem onClick={handleClose}><KonkaniLink/></MenuItem>
+      </Menu>
     </div>
   );
 }

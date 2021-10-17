@@ -4,14 +4,18 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import { makeStyles } from '@material-ui/core/styles';
 import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
 import { Link, Router } from "react-router-dom";
+import rightarrow from '../Assets/rightarrow.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    display: 'flex',
     '& > *': {
       margin: theme.spacing(1),
+      colour: 'black'
     },
   },
+  arrows: {
+    colour: 'red'
+  }
 }));
 
 export default function GroupOrientation() {
@@ -27,31 +31,31 @@ export default function GroupOrientation() {
       >
         <Link to={process.env.PUBLIC_URL + '/EssentialList1'}>
           <Button>Director and Dy.Director of Tourism
-            <ArrowForwardIosRoundedIcon />
+          <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList2'}>
           <Button>Assistant Director of Tourism
-            <ArrowForwardIosRoundedIcon />
+          <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList3'}>
           <Button>Assistant Account Officer
-            <ArrowForwardIosRoundedIcon />
+          <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList4'}>
           <Button>Assistant Tourism Officer
-            <ArrowForwardIosRoundedIcon />
+          <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList5'}>
           <Button>Assistant Planning Officer
-            <ArrowForwardIosRoundedIcon />
+          <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 

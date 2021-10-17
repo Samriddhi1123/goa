@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import { Link, Router } from "react-router-dom";
-import ArrowForwardIosRoundedIcon from '@material-ui/icons/ArrowForwardIosRounded';
+import rightarrow from '../Assets/rightarrow.svg';
 
 
 
@@ -10,9 +10,14 @@ const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
       margin: theme.spacing(1),
+      colour: 'black'
     },
   },
+  arrows: {
+    colour: 'red'
+  }
 }));
+
 
 export default function OutlinedButton1() {
   const classes = useStyles();
@@ -22,9 +27,10 @@ export default function OutlinedButton1() {
 
 
       <Link to={process.env.PUBLIC_URL + '/PublicGrievancesOfficer'}>
-        <Button variant="outlined" color="primary" href="">
+        <Button 
+        variant="outlined" color="primary" href="">
           Details of Public Grievances Officer
-          <ArrowForwardIosRoundedIcon />
+          <img src={rightarrow} className="rightarrow" alt="arrow" />
         </Button>
       </Link>
 

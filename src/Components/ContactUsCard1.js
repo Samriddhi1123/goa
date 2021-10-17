@@ -37,6 +37,10 @@ export default function SimpleCard() {
 
       <CardContent>
 
+
+
+        <LocationOnIcon />
+
         <Typography variant="h5" component="h2">
           Contact Us
 
@@ -45,21 +49,21 @@ export default function SimpleCard() {
           Department of Tourism
         </Typography>
 
-        <Grid container spacing={1}>
-          <Grid item xs={3}>
-            <Paper className={classes.paper}>
-              <LocationOnIcon />
-            </Paper>
-          </Grid>
 
-          <Grid item xs={9}>
-            <Paper className={classes.paper}><Typography variant="body2" component="p">
-              Paryatan Bhavan, 2nd Floor, Patto, Panaji-Goa, India, 403001
 
-            </Typography>
-            </Paper>
-          </Grid>
+        <Grid item xs={12}>
+          <Typography variant="body2" component="p">
+            Paryatan Bhavan, 2nd Floor, Patto, Panaji-Goa, India, 403001
+
+          </Typography>
+
         </Grid>
+
+
+
+
+
+
 
 
 
@@ -70,5 +74,6 @@ export default function SimpleCard() {
         <Button size="small"></Button>
       </CardActions>
     </Card>
+
   );
 }
