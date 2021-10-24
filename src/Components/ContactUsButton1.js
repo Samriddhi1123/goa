@@ -10,13 +10,13 @@ import rightarrow from '../Assets/rightarrow.svg';
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
-      margin: theme.spacing(60),
+      margin: theme.spacing(1),
      
     },
   },
   button: {
     borderRadius: 15,
-    width: 300,
+    width: 250,
   }
 }));
 

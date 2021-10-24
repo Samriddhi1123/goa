@@ -45,9 +45,10 @@ export default function ContactUs() {
         </Paper>
         <Grid container spacing={2}>
           <Grid item xs={12}>
+          <OutlinedButton1 />
           </Grid>
 
-          <OutlinedButton1 />
+         
 
           <Grid item xs={12}>
 

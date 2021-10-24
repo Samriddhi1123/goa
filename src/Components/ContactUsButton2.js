@@ -8,13 +8,13 @@ import { Grid } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   root: {
     '& > *': {
-      margin: theme.spacing(59),
+      margin: theme.spacing(1),
      
     },
   },
   button: {
     borderRadius: 15,
-    width: 300,
+    width: 250,
   }
 }));
 
@@ -27,7 +27,7 @@ export default function OutlinedButton2() {
 
       <Link to={process.env.PUBLIC_URL + '/EssentialContactList'}>
         <Button variant="outlined" color="primary" href="" className={classes.button}>
-      <Grid container spacing={1}>
+      <Grid container spacing={0}>
           <Grid item xl={12}>
 
           Essential Contacts List
