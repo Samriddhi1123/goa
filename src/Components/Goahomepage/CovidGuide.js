@@ -3,29 +3,25 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { makeStyles } from '@material-ui/styles';
-import EnglishLink from './English';
-import HindiLink from './Hindi';
-import KonkaniLink from './Konkani';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
-  root: {
-    display: 'flex',
-    alignContent: 'left',
-    marginRight: 0,
-  },
-  lang: {
-    color: '#562085',
-  },
-}));
+    root: {
+      display: 'flex',
+      alignContent: 'center',
+    },
+    lang: {
+      display: 'flex',
+      alignContent: 'center',
+      color: 'grey',
+    }, 
+  }));
 
-
-
-export default function SimpleMenu01() {
-
-  const classes = useStyles();
-
+export default function SimpleMenuCG() {
+    const classes = useStyles();
   const [anchorEl, setAnchorEl] = React.useState(null);
+
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -35,11 +31,10 @@ export default function SimpleMenu01() {
   };
 
   return (
-    <div className={classes.root}>
+    <div>
       <Button className={classes.lang} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        Languages
-        <ExpandMoreIcon />
-
+        Covid Guide
+        <ExpandMoreIcon/>
       </Button>
       <Menu
         id="simple-menu"
@@ -48,9 +43,8 @@ export default function SimpleMenu01() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}><EnglishLink /></MenuItem>
-        <MenuItem onClick={handleClose}><HindiLink /></MenuItem>
-        <MenuItem onClick={handleClose}><KonkaniLink /></MenuItem>
+        <MenuItem onClick={handleClose}>Safety Guides</MenuItem>
+        <MenuItem onClick={handleClose}>Official Govt. Circulars</MenuItem>
       </Menu>
     </div>
   );

@@ -17,6 +17,7 @@ import Youtube from '../../Assets/Youtube.svg';
 import Facebook from '../../Assets/Facebook.svg';
 import Twitter from '../../Assets/Twitter.svg';
 import Instagram from '../../Assets/Instagram.svg';
+import Images from './Images';
 
 const useStyles = makeStyles((theme) => ({
   header: {
@@ -90,12 +91,12 @@ export default function AppFooter() {
           </Grid>
 
 
-
+          <Images/>
           <Paper elevation={0} className={classes.para}>
             Copyright ©️ 2021. All Rights Reserved.This is the official website of Goa Tourism Department, Govt of Goa.
           </Paper>
 
-
+       
         </div>
       </footer>
 

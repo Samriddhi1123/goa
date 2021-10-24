@@ -5,6 +5,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
+import arrowdown from '../Assets/arrowdown.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,6 +15,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
   },
+  
+  heading :{
+    display: 'flex',
+alignItems: 'center'
+
+  }
 }));
 
 export default function SimpleAccordion4() {
@@ -31,6 +38,7 @@ export default function SimpleAccordion4() {
         >
           <Typography className={classes.heading}><p> Shri Rodlin Mascarenhas</p>
             Assistant Tourist Officer (South)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -61,6 +69,7 @@ export default function SimpleAccordion4() {
         >
           <Typography className={classes.heading}><p>Shri Gajanan Mahale</p>
             Assistant Tourist Officer-I (Revenue)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -91,6 +100,7 @@ export default function SimpleAccordion4() {
         >
           <Typography className={classes.heading}><p>Smt. Chitra Vengurlekar</p>
             Assistant Tourist Officer –I (North Zone)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -121,6 +131,7 @@ export default function SimpleAccordion4() {
         >
           <Typography className={classes.heading}><p>Shri Pradeep Binnar</p>
             Assistant Tourist Officer (South)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -151,6 +162,7 @@ export default function SimpleAccordion4() {
         >
           <Typography className={classes.heading}><p>Shri Jayesh Kankonkar</p>
             Assistant Tourist Officer (Information)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -181,6 +193,7 @@ export default function SimpleAccordion4() {
         >
           <Typography className={classes.heading}><p>Shri Clifford D’Mello</p>
             Assistant Tourist Officer –II (North Zone)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

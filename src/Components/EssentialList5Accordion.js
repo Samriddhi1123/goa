@@ -4,7 +4,7 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
-
+import arrowdown from '../Assets/arrowdown.svg';
 import { Link } from 'react-router-dom';
 
 const useStyles = makeStyles((theme) => ({
@@ -15,6 +15,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
   },
+  heading: {
+    display: 'flex',
+    alignItems: 'center'
+
+  }
+
 }));
 
 export default function SimpleAccordion5() {
@@ -26,12 +32,13 @@ export default function SimpleAccordion5() {
     <div className={classes.root}>
       <Accordion>
         <AccordionSummary
-         
+
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           <Typography className={classes.heading}><p> Smt. Lodovina Quadros</p>
             Assistant Planning Officer</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

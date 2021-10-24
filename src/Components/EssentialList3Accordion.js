@@ -5,6 +5,7 @@ import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
 import { Link } from 'react-router-dom';
+import arrowdown from '../Assets/arrowdown.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -14,6 +15,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
   },
+  
+  heading :{
+    display: 'flex',
+alignItems: 'center'
+
+  }
 }));
 
 export default function SimpleAccordion3() {
@@ -31,6 +38,7 @@ export default function SimpleAccordion3() {
           <Typography className={classes.heading}><p> Shri Uday Wadkar</p>
             Assistant Director of Tourism
             (Revenue/Information)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

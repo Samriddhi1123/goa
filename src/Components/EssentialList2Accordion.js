@@ -4,6 +4,7 @@ import Accordion from '@material-ui/core/Accordion';
 import AccordionSummary from '@material-ui/core/AccordionSummary';
 import AccordionDetails from '@material-ui/core/AccordionDetails';
 import Typography from '@material-ui/core/Typography';
+import arrowdown from '../Assets/arrowdown.svg';
 
 import { Link } from 'react-router-dom';
 
@@ -15,6 +16,12 @@ const useStyles = makeStyles((theme) => ({
     fontSize: theme.typography.pxToRem(15),
     fontWeight: theme.typography.fontWeightRegular,
   },
+ 
+  heading :{
+    display: 'flex',
+alignItems: 'center'
+
+  }
 }));
 
 export default function SimpleAccordion2() {
@@ -33,6 +40,9 @@ export default function SimpleAccordion2() {
           <Typography className={classes.heading}><p>Shri Ganesh Teli </p>
             Assistant Director of Tourism
             (Revenue/Information)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
+
+            
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -62,6 +72,8 @@ export default function SimpleAccordion2() {
         >
           <Typography className={classes.heading}><p>Shri Dhiraj Vagle </p>
             Assistant Director of Tourism/PIO (South)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
+
         </AccordionSummary>
 
         <AccordionDetails>
@@ -91,6 +103,8 @@ export default function SimpleAccordion2() {
           <Typography className={classes.heading}><p>Shri Subhash Kavlekar </p>
             Assistant Director of Tourism/PIO(North)
             (Planning/NorthZone Office)</Typography>
+            <img src={arrowdown} className="rightarrow" alt="arrow" />
+
         </AccordionSummary>
 
         <AccordionDetails>

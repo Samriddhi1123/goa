@@ -9,6 +9,7 @@ import arrowdown from '../Assets/arrowdown.svg';
 
 const useStyles = makeStyles((theme) => ({
   root: {
+    
     '& > *': {
       margin: theme.spacing(1),
       colour: 'black'
@@ -16,6 +17,11 @@ const useStyles = makeStyles((theme) => ({
   },
   arrows: {
     colour: 'red'
+  },
+  heading :{
+    display: 'flex',
+alignItems: 'center'
+
   }
 }));
 
@@ -29,13 +35,13 @@ export default function SimpleAccordion1() {
 
       <Accordion>
         <AccordionSummary
-         
+
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
           <Typography className={classes.heading}><p>Shri Menino D’Souza </p>
             (Director of Tourism)</Typography>
-            <img src={arrowdown} className="rightarrow" alt="arrow" />
+          <img src={arrowdown} className="rightarrow" alt="arrow" />
 
         </AccordionSummary>
         <AccordionDetails>
@@ -55,19 +61,19 @@ export default function SimpleAccordion1() {
               <p>0832 2494200</p>
             </Link>
           </Typography>
-          
+
 
         </AccordionDetails>
       </Accordion>
       <Accordion>
         <AccordionSummary
-         
+
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
           <Typography className={classes.heading}><p>Shri Rajesh Kale </p>
             Dy. Director of Tourism (Information/North Zone/South Zone)</Typography>
-            <img src={arrowdown} className="rightarrow" alt="arrow"/>
+          <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
 
         <AccordionDetails>
@@ -90,14 +96,14 @@ export default function SimpleAccordion1() {
 
       <Accordion>
         <AccordionSummary
-         
+
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
           <Typography className={classes.heading}><p>Shri Prasad Volvoikar </p>
             Dy. Director of Tourism
             (Administration/Revenue/Planning) Public Information Officer/ Public Grievances Officer (North)</Typography>
-            <img src={arrowdown} className="rightarrow" alt="arrow" />
+          <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
 
         <AccordionDetails>
@@ -122,13 +128,13 @@ export default function SimpleAccordion1() {
 
       <Accordion>
         <AccordionSummary
-          
+
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
           <Typography className={classes.heading}><p>Smt. Sunita B. Singh </p>
             Dy. Director (Accounts)</Typography>
-            <img src={arrowdown} className="rightarrow" alt="arrow" />
+          <img src={arrowdown} className="rightarrow" alt="arrow" />
         </AccordionSummary>
         <AccordionDetails>
           <Typography>

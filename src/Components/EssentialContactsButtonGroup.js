@@ -15,7 +15,12 @@ const useStyles = makeStyles((theme) => ({
   },
   arrows: {
     colour: 'red'
-  }
+  },
+  button: {
+    margin: 5,
+    border:5,
+    },
+    
 }));
 
 export default function GroupOrientation() {
@@ -31,31 +36,31 @@ export default function GroupOrientation() {
       >
         <Link to={process.env.PUBLIC_URL + '/EssentialList1'}>
           <Button>Director and Dy.Director of Tourism
-          <img src={rightarrow} className="rightarrow" alt="arrow" />
+            <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList2'}>
           <Button>Assistant Director of Tourism
-          <img src={rightarrow} className="rightarrow" alt="arrow" />
+            <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList3'}>
           <Button>Assistant Account Officer
-          <img src={rightarrow} className="rightarrow" alt="arrow" />
+            <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList4'}>
           <Button>Assistant Tourism Officer
-          <img src={rightarrow} className="rightarrow" alt="arrow" />
+            <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 
         <Link to={process.env.PUBLIC_URL + '/EssentialList5'}>
-          <Button>Assistant Planning Officer
-          <img src={rightarrow} className="rightarrow" alt="arrow" />
+          <Button className={classes.button}>Assistant Planning Officer
+            <img src={rightarrow} className="rightarrow" alt="arrow" />
           </Button>
         </Link>
 

@@ -74,7 +74,7 @@ export default function CustomizedAccordions() {
       <Accordion square expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
           <Typography>Dy. Director of Tourism, Head Office, Panaji
-          
+
           </Typography>
           <img src={arrowdown} className="arrow" alt="arrow" />
         </AccordionSummary>
@@ -92,7 +92,7 @@ export default function CustomizedAccordions() {
       <Accordion square expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
           <Typography>Dy. Director/ Public Grievance Officer (North Zone Office/South Zone Office)
-          
+
           </Typography>
           <img src={arrowdown} className="arrow" alt="arrow" />
         </AccordionSummary>

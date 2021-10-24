@@ -6,12 +6,12 @@ import { Box } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    '& > *': {
-      margin: theme.spacing(1),
+    display: 'flex',
+    justifyContent: 'right',
+    marginRight: 15,
 
-      position: 'relative',
-      
-      color:'black'
+    '& > *': {
+      color: '#562085',
     },
   },
 }));

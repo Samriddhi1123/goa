@@ -3,28 +3,21 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { makeStyles } from '@material-ui/styles';
-import EnglishLink from './English';
-import HindiLink from './Hindi';
-import KonkaniLink from './Konkani';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import MultiSelectTreeViewTR from './Menu/treeview2';
 
 const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
-    alignContent: 'left',
-    marginRight: 0,
+    alignContent: 'center',
   },
   lang: {
-    color: '#562085',
-  },
+    color: 'grey',
+  }, 
 }));
 
-
-
-export default function SimpleMenu01() {
-
+export default function SimpleMenuTR() {
   const classes = useStyles();
-
   const [anchorEl, setAnchorEl] = React.useState(null);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -35,11 +28,10 @@ export default function SimpleMenu01() {
   };
 
   return (
-    <div className={classes.root}>
+    <div >
       <Button className={classes.lang} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        Languages
-        <ExpandMoreIcon />
-
+        Transportation
+        <ExpandMoreIcon/>
       </Button>
       <Menu
         id="simple-menu"
@@ -48,9 +40,7 @@ export default function SimpleMenu01() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}><EnglishLink /></MenuItem>
-        <MenuItem onClick={handleClose}><HindiLink /></MenuItem>
-        <MenuItem onClick={handleClose}><KonkaniLink /></MenuItem>
+          <MultiSelectTreeViewTR/>
       </Menu>
     </div>
   );
